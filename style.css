@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
 :root {
-    --cor-de-fundo: #ffffff;
+    --cor-de-fundo: #f1e3e3;
     --: #f5c3d6;
     --branco: #FFFFFF;
     --botao-ativo: #3A375E;
@@ -58,4 +58,21 @@ body {
 
 .botoes {
     display: block;
+}
+body > p {
+  width: 350px;
+  background: pink;
+}
+.link-denuncia {
+  color: rgb(162, 162, 223);
+  text-decoration: none; /* Remove a sublinhado padrão */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+.link-denuncia:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o cursor */
+}
+
+footer {
+  background: rgb(0, 0, 0);
 }
